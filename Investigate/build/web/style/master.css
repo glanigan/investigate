@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Nov-2016, 15:57:07
+    Author     : garyl
+*/
+html{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+body{
+    background:#gfgfgf;
+    min-height:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+label{
+    margin-right:0.5em;
+}
+#container{
+    min-height:100%;
+    display:block;
+    position:relative;
+}
+#PageTitle{
+    padding-right:1em;
+}
+#MainBody{
+    padding-right:1em;
+}
+h1{
+    margin:0px auto;
+    color: #005F7C;
+    font-size: 2.25em;
+    padding-left: 5px;
+    font-weight: 500;
+}
+h2{
+    font-size: 1.10em;
+    font-weight: 500;
+    width:50%;
+    display: inline-block;
+    float:left;
+    padding-left:0.5em;
+    padding-top:0.40em;
+}
+label{
+    font-weight: 500;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    max-height: 3em;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#005F7C;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+img{
+    max-height: 30px;
+    display: block;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+#Appform{
+    background:#f1f1f1;
+    width: 956px;
+    margin:0px auto; 
+    padding-bottom:15px;
+}
+.Errormsg{
+    color:red;
+}
+.btn-link{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:#0000EE;
+  padding:0;
+  text-decoration: underline;
+  font-family:inherit;
+  font-size:inherit;
+}
+.btn-link-match{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:#0000EE;
+  margin: 0 0 0 0;
+  padding:0 0 0 0;
+  width:0;
+  display: inline-block;
+  float:left;
+  text-decoration: underline;
+  font-family:inherit;
+  font-size:inherit;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+th{
+    border: 1px solid #dddddd;
+    background-color: #005F7C;
+    color: white;
+    text-align: left;
+    padding: 8px; 
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+footer{
+    margin: 0 auto 0 0;
+    padding:0 0 0 0;
+    padding-top:1.5em;
+    position:absolute;
+    min-height:3em;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+}
+#MainBody{
+   margin:0 auto; padding-left:10px; padding-top:10px;padding-bottom:15px;
+}
+#LoadFormHeader{
+    width:100%; height:32px; margin:0 auto; background-color:#888888; padding-left:5px;
+}
+#LoadFormBody{
+    width:100%; margin:0 auto; padding-top: 10px; padding-left:20px;
+}
+#Login{
+    background:#f1f1f1;
+    width: 475px;
+    margin:0px auto;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right:30px;
+    padding-bottom:20px;
+    align-items:  center;
+}
+#Login.h1{
+    margin:0px auto;
+    text-align: center;
+}
+section.FormHeader{
+    width:100%;
+    height:32px;
+    margin:0 auto;
+    background-color:#005F7C;
+    color:white;
+    padding-left:5px;
+}
+.FormBody{
+    width:100%; margin:0 auto; padding-top: 10px; padding-left:20px;
+}
+.applicationReport{
+    width:100%;
+    margin: 0 auto;
+    display:inline-block;
+    background-color: #f9f9f9;
+    float:left;
+    padding: 0 0 0 0;
+    margin-bottom: 1em;
+}
+.application{
+    width:60%;
+    display:inline-block;
+    float:left;
+    padding: 0 0 0 0;
+    margin:0 0 0 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+.header{
+    width:100%;
+    height:32px;
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
+    background-color:#005F7C;
+    color:white;
+}
+.header.h2{
+    padding-top:0px;
+}
+.matches{
+    width:30%;
+    display:inline-block;
+    float:right;
+    padding: 0 0 0 0;
+    margin:0 0 0 0;
+    padding-bottom: 1em;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    min-height: 5em;
+}
+.match{
+    width:100%;
+    float:left;
+    display: inline-block;
+}
+.footerPlaceholder{
+    margin:0 0 0 0;
+    margin-top:4em;
+    padding:0 0 0 0;
+    display:inline-block;
+    width:90%;
+}
